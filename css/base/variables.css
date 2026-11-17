@@ -1,0 +1,26 @@
+:root{
+    --promary-bg-color:#05070a;
+    --footer-bg-color:#05070A;
+    --secondary-border-color:#334155CC;
+    --promary-color:#FFFFFF;
+    --secondary-color:#94A3B8;
+
+    --input-bg-color:#121724;
+    --input-border-color:#1E293B;
+    --form-bg-color:#111726;
+    --promary-line-color:#38BDF8;
+    --subtitle-color:#38BDF8;
+    --btn-color:#FFFFFF;
+    --btn-bg-color:#0EA5E9;
+    --btn-hover-bg-color:#005983;
+    --secondary-card-bg-color:#082F49B2;
+    --primary-card-bg-color:#11172699;
+    --line-color:#1E293B80;
+
+    --sale-bg-color:#091326;
+    --sale-border-color:#0C4A6E99;
+
+    --reviews-color:#CBD5E1;
+    --reviews-border-color:#1E293B99;
+    --star-color:#FBBF24;
+}

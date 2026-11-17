@@ -1,0 +1,15 @@
+@import url("./base/base.css");
+@import url("./base/variables.css");
+
+@import url("./layout/header.css");
+@import url("./layout/footer.css");
+
+@import url("./screens/hero.css");
+@import url("./screens/catgories.css");
+@import url("./screens/cta.css");
+@import url("./screens/sale.css");
+@import url("./screens/perks.css");
+@import url("./screens/steps.css");
+@import url("./screens/reviews.css");
+
+

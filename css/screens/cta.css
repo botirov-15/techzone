@@ -1,0 +1,59 @@
+#cta{
+    background-color: var(--promary-bg-color);
+}
+
+.cta__content{
+    padding: 56px 0 ;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cta__info{
+    width: 592px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.cta__info__subtitle{
+    font-size:12px ;
+    font-weight:600 ;
+    line-height:16px ;
+    color: var(--subtitle-color);
+}
+
+.cta__info__title{
+    font-size:30px ;
+    font-weight:800 ;
+    line-height:36px ;
+    color: var(--promary-color);
+    margin-top: 15px;
+}
+
+.cta__info__desc{
+    font-size:14px ;
+    font-weight:400 ;
+    line-height:20px ;
+    color: var(--secondary-color);
+    margin-top: 12px;
+}
+
+.cta__form form{
+    width: 696px;
+    display:flex ;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+.cta__input-field input,
+.cta__input-field select{
+    width: 341px;
+    border: 1px solid  var( --promary-border-color);
+    background-color: var(--form-bg-color);
+    border-radius: 8px;
+    padding: 13px;
+    color: var(--promary-color);
+    outline: none;
+}
+

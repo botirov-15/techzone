@@ -1,0 +1,78 @@
+#categories{
+    background-color: var(--promary-bg-color);
+}
+
+.categories__cantent{
+    padding: 48px 0;
+    border-top: 2px solid var(--line-color);
+    border-bottom: 2px solid var(--line-color);
+}
+
+.categories__title__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.categories__subtitle{
+    font-size:12px ;
+    font-weight:600 ;
+    line-height:16px ;
+    color: var(--subtitle-color);
+}
+
+.categories__title{
+    font-size:24px ;
+    font-weight:700 ;
+    line-height:32px ;
+    letter-spacing: -0.6px;
+    color: var( --promary-color);
+    margin-top: 4px;
+}    
+
+.categories__view{
+    font-size: 14px;
+    font-weight: 700;
+    line-height:20px ;
+    color: var( --subtitle-color);
+}
+
+
+.categories__wrapper{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.categories__card{
+    height: 102px;
+    padding: 14px;
+    background-color: var(--form-bg-color);
+    text-align: center;
+    border-radius: 16px;
+    border: 1px solid var(--input-border-color);
+    transition: all .3s ease;
+}
+
+.categories__card__img{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--line-color);
+}
+
+.categories__card__title{
+    margin-top: 17px;
+    font-size:12px ;
+    font-weight:700 ;
+    line-height:16px;
+    color: var(--promary-color);
+}
+
+.categories__card:hover{
+    background-color: var(--card-hover-bg-color);
+}

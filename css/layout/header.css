@@ -1,0 +1,71 @@
+/* nav */
+#header{
+    background-color: var(--promary-bg-color);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    opacity: .960;
+    top: 0;
+    
+}
+
+.header__content{
+    padding:22px  0;
+    opacity: 1;
+
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__nav__logo a{
+    display: flex;
+    align-items:center;
+}
+
+.header__nav__list{
+    display: flex;
+    gap:32px;
+    align-items:center;
+}
+
+.header__nav__link{
+    font-size:14px ;
+    font-weight:500 ;
+    line-height:20px ;
+    color: var(--secondary-color);
+    transition: all .3s ease;
+}
+
+.header__nav__link:hover{
+    color: var(--promary-color);
+    text-decoration:2px underline var(--promary-line-color) ;
+    text-underline-offset: 6px;
+}
+
+.header__nav__right{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.header__nav__input{
+    width: 288px;
+    padding: 13px 17px;
+    border-radius: 9999px;
+    border: 1px solid var(--input-border-color);
+    background-color: var(--input-bg-color);
+    color: var(--promary-color);
+}
+
+.header__nav__input:focus{
+    outline: 2px solid var(--input-border-color);
+}
+
+.header__nav__right img{
+    width: 36px;
+    height: 36px;
+}

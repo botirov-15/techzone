@@ -10,7 +10,7 @@
 }
 
 .cta__info{
-    width: 592px;
+    max-width: 592px;
     display: flex;
     align-items: center;
     gap: 32px;
@@ -24,6 +24,7 @@
 }
 
 .cta__info__title{
+    max-width: 488px;
     font-size:30px ;
     font-weight:800 ;
     line-height:36px ;
@@ -32,6 +33,7 @@
 }
 
 .cta__info__desc{
+    min-width: 300px;
     font-size:14px ;
     font-weight:400 ;
     line-height:20px ;
@@ -40,7 +42,7 @@
 }
 
 .cta__form form{
-    width: 696px;
+    min-width: 300px;
     display:flex ;
     flex-wrap: wrap;
     gap: 14px;
@@ -48,7 +50,7 @@
 
 .cta__input-field input,
 .cta__input-field select{
-    width: 341px;
+    min-width:300px;
     border: 1px solid  var( --promary-border-color);
     background-color: var(--form-bg-color);
     border-radius: 8px;
@@ -57,3 +59,41 @@
     outline: none;
 }
 
+@media only screen and (max-width:1096px) {
+    .cta__info__title{
+        font-size: 28px;
+    }
+    .cta__info__desc{
+        font-size: 12px;
+    }
+
+    .cta__input-field input,
+    .cta__input-field select{
+        max-width: 300px;
+}
+}
+
+
+@media only screen and (max-width:768px) {
+    .cta__content{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .cta__form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
+@media only screen and (max-width:480px) {
+    .cta__info__title{
+        font-size: 24px;
+    }
+    .cta__info__desc{
+        font-size: 10px;
+    }
+}

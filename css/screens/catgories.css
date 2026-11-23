@@ -76,3 +76,13 @@
 .categories__card:hover{
     background-color: var(--card-hover-bg-color);
 }
+
+@media only screen and (max-width:1096px) {
+    .categories__card__title{
+        font-size: 10px;
+    }
+    .categories__title{
+        font-size: 20px;
+    }
+}
+

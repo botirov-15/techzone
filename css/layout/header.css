@@ -69,3 +69,23 @@
     width: 36px;
     height: 36px;
 }
+
+#header .fa-bars{
+    color: #fff;
+    display: none;
+}
+
+@media only screen and (max-width:1096px){
+    #header .fa-bars{
+    display: block;
+}
+.header__nav__list {
+    display: none;
+}
+}
+
+@media only screen and (max-width:768px){
+    .header__nav__right{
+        display: none;
+    }
+}

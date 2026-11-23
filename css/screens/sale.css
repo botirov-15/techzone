@@ -37,7 +37,7 @@
     font-size:16px ;
     font-weight: 400;
     line-height:24px ;
-    margin-top:16px ;
+    margin-top:16px ;   
 }
 
 .sale__btn{
@@ -62,6 +62,10 @@
     gap: 24px;
     align-items: center;
 }
+.sale__img{
+    max-width: 224px;
+    height:auto;
+}
 
 .sale__right__desc{
     width: 69px;
@@ -73,4 +77,53 @@
 
 .sale__right__desc span {
     color: var(--promary-color);
+}
+
+
+@media only screen and (max-width:1096px){
+    .sale__title{
+        font-size: 44px;
+    }
+
+    .sale__desc{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:768px){
+   .sale__content{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 50px;
+    align-items: center;
+    text-align: center;
+   }
+
+   .sale__right__desc{
+    font-size: 10px;
+   }
+}
+
+@media only screen and (max-width:480px){
+    .sale__content{
+        padding: 60px;
+    }
+    .sale__right__desc{
+    display: none;
+   }
+    .sale__title{
+        font-size: 30px;
+    }
+
+    .sale__desc{
+        max-width: 150px;
+        font-size: 8px;
+        margin: 0 auto;
+        line-height: 15px;
+    }
+    .sale__img{
+    width: 150px;
+    height:auto;
+}
 }

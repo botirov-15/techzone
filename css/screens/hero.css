@@ -190,7 +190,13 @@
     }
 
     .hero__form__btn{
-        font-size:10px;
-        padding: 15px 18px;
+        text-align: center;
+        padding: 40px 24px;
+    }
+
+    .hero__info__form{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }

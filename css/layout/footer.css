@@ -128,7 +128,6 @@
 
 
 
-/* ===== LAPTOP RESPONSIVE ===== */
 @media (max-width: 1096px) {
     .footer__nav {
         display: grid;
@@ -150,7 +149,6 @@
 }
 
 
-/* ===== TABLET RESPONSIVE ===== */
 @media (max-width: 768px) {
     .footer__content {
         padding: 40px 0 48px;
@@ -175,8 +173,7 @@
 }
 
 
-/* ===== MOBILE RESPONSIVE ===== */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .footer__content {
         padding: 32px 0 40px;
     }

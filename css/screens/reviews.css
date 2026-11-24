@@ -114,4 +114,9 @@
     .reviews__subtitle{
         font-size: 10px;
     }
+
+    .reviews__card{
+        max-width: 300px;
+        
+    }
 }

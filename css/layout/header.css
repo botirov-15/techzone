@@ -1,4 +1,3 @@
-/* nav */
 #header{
     background-color: var(--promary-bg-color);
     position: fixed;
@@ -98,5 +97,7 @@
         display: none;
     }
 
-
+    .header__content{
+        width: 100%;
+    }
 }

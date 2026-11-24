@@ -119,4 +119,10 @@
         max-width: 300px;
         
     }
+
+    .reviews__card__top{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 }

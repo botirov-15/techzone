@@ -32,7 +32,7 @@
 
 .products__item__wrapper{
     margin-top: 32px;
-    width: 1216px;
+    max-width: 1216px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:repeat(2, 1fr) ;

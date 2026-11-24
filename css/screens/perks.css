@@ -20,7 +20,7 @@
 
     display: flex;
     gap: 14px;
-    align-items: center;
+    align-items:stretch;
 }
 
 .perks__card__icon{

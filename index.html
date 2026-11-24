@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>techzne.by-Botirov</title>
 
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css"
@@ -160,7 +160,7 @@
         <section id="products">
             <div class="container">
                 <div class="prodicts__content">
-                        <div class="products__title__wrapper">
+                    <div class="products__title__wrapper">
                         <div>
                             <h4 class="products__subtitle"> — POPULAR PRODUCTS</h4>
                             <h2 class="products__title">Top Rated Products</h2>
@@ -533,11 +533,37 @@
                 el: '.swiper-pagination',
             },
 
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                400: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                640: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 4,
+                    spaceBetween: 24,
+                },
+                1024: {
+                    slidesPerView: 5,
+                    spaceBetween: 24,
+                },
+            },
+
+
             // Navigation arrows
             navigation: {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+
+
 
             // And if we need scrollbar
             scrollbar: {

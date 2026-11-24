@@ -76,3 +76,21 @@
     line-height:16px ;
     color:var(--secondary-color) ;
 }
+
+@media only screen and (max-width:1096px) {
+    .steps__card__wrapper{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:480px){
+
+    .steps__title{
+        font-size: 18px;
+    }
+
+    .steps__subtitle{
+        font-size: 10px;
+    }
+}

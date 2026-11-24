@@ -89,3 +89,9 @@
         display: none;
     }
 }
+
+@media only screen and (max-width:480px){
+    .header__nav__right{
+        display: none;
+    }
+}

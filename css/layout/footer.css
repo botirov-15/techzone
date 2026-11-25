@@ -173,7 +173,7 @@
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
     .footer__content {
         padding: 32px 0 40px;
     }
